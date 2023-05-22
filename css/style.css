@@ -42,9 +42,11 @@ img{
 
 .geralDescricaoH1{
   margin: 20px 0;
+  color: var(--azulEscuro);
 }
 
 .geralDescricaoParagrafo{
   font-size: 14px;
   margin-bottom: 20px;
+  color: var(--azulAcinzentado);
 }
