@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+:root{
+  --branco:hsl(0, 0%, 100%);
+  --cinzaClaro:hsl(212, 45%, 89%);
+  --azulAcinzentado:hsl(220, 15%, 55%);
+  --azulEscuro:hsl(218, 44%, 22%);
+}
+
+body{
+  font-family: 'Outfit', sans-serif;
+}
+
+.conteiner{
+  width: 100vw;
+  height: 100vh;
+  background: var(--cinzaClaro);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  width: 300px;
+  border-radius: 10px;
+}
+
+.geral{
+  background: var(--branco);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.geralDescricao{
+  width: 300px;
+  text-align: center;
+}
+
+.geralDescricaoH1{
+  margin: 20px 0;
+}
+
+.geralDescricaoParagrafo{
+  font-size: 14px;
+  margin-bottom: 20px;
+}
